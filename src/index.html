@@ -6,20 +6,24 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-   <br> 
-   <input id="data"><br> 
-   Palabra a encriptar:<br> 
-   <input id="key" onkeyup="encrypt()"><br> 
-   <br>
-   Palabra Encriptada:<br> 
-   <input id="encrypted"><br> 
-   Palabra en (ASCII):
-   <br> 
-   <input id="encrypted_ASCII"><br> 
-   Palabra desencriptado:<br> 
-   <input id="decrypted"><br>
-
-    /////////////////////////////
+   <header>
+    <h1>Cifrado Cesar</h1>
+   </header>
+   <main>
+    Palabra a encriptar:
+    <br>
+    <input id="data"><br> 
+    Palabra a encriptar:<br> 
+    <input id="key" onkeyup="encrypt()"><br> 
+    <br>
+    Palabra Encriptada:<br> 
+    <input id="encrypted"><br> 
+    Palabra en (ASCII):
+    <br> 
+    <input id="encrypted_ASCII"><br> 
+    Palabra desencriptado:<br> 
+    <input id="decrypted"><br>
+  </main>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

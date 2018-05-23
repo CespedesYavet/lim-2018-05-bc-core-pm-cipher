@@ -15,16 +15,11 @@ descifrarlo. Así que ahora te toca aplicar tus superpoderes 😎
 
 ## Introducción
 
-El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los
-primeros métodos de cifrado conocidos históricamente. Es un tipo de cifrado por
-sustitución en el que una letra en el texto original es reemplazada por otra
-letra que se encuentra un número fijo de posiciones más adelante en el alfabeto.
+El [cifrado César](http://www.abc.es/20100705/ciencia/cifrado-cesar-201007051841.html) Apesar de ser uno de los metodos criptograficos mas simples - hoy lo descubriria un niño, permitio al emperador romano proteger sus mensaje de miradas no autorizadas.
 
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
 
-El emperador Julio César lo usaba para enviar órdenes a sus generales en los
-campos de batalla, es una de las técnicas más simples y más usadas para cifrar
-un mensaje.
+Consiste en substituir cada letra del mensaje por otra que se encuentre un número fijo de posiciones más adelante en el alfabeto.
 
 Por ejemplo si usáramos un desplazamiento de 3:
 
@@ -38,7 +33,17 @@ de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el
 sistema ROT13.
 
 ## Objetivos
+Se realizara una aplicacion web dirijido a personas dedicadas a un ambiente laboral, donde la importancia  de la seguridad prima.
+Por ello emplearemos el Cifrado cesar con el cual nuestro usuario estara mas seguro.
 
+Nustro interfaz estara constituida de un body dividido en un title, la parte del body donde se podra interactuar el producto y footer.
+Los eventos que va constar son lo siguiente:
+- Boton de Bienvenida al Interfaz.
+- Cuatro cajas de texto donde ingresaremos el texto a encriptar.
+- Una caja donde nos brinde la respuesta de lo ingresado.
+La logica de nuestro proyecto:
+  -
+ 
 El objetivo principal de aprendizaje de este proyecto es tener tu primera
 experiencia construyendo una aplicación web usando tus conocimientos de **User
 Experience Design** y de **JavaScript**. Esto incluye diseñar un producto

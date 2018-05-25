@@ -15,58 +15,12 @@ descifrarlo. Así que ahora te toca aplicar tus superpoderes 😎
 
 ## Introducción
 
-El [cifrado César](http://www.abc.es/20100705/ciencia/cifrado-cesar-201007051841.html) Apesar de ser uno de los metodos criptograficos mas simples - hoy lo descubriria un niño, permitio al emperador romano proteger sus mensaje de miradas no autorizadas.
-
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
-
-Consiste en substituir cada letra del mensaje por otra que se encuentre un número fijo de posiciones más adelante en el alfabeto.
-
-Por ejemplo si usáramos un desplazamiento de 3:
-
-* Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-
-Actualmente todos los cifrados de sustitución alfabética simple, se descifran
-con facilidad y en la práctica no ofrece mucha seguridad en la comunicación,
-pero el cifrado César muchas veces puede formar parte de sistemas más complejos
-de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el
-sistema ROT13.
+El cifrado Cesar es uno de los primeros métodos de cifrado conocidos históricamente. Julio César lo usó para enviar órdenes a sus generales en los campos de batalla. Consistía en escribir el mensaje con un alfabeto que estaba formado por las letras del alfabeto latino normal desplazadas tres posiciones a la derecha.
+(https://t3.kn3.net/taringa/1/0/2/4/0/D/santiissss/176x132_544.gif).
 
 ## Objetivos
-Se realizara una aplicacion web dirijido a personas dedicadas a un ambiente laboral, donde la importancia  de la seguridad prima.
-Por ello emplearemos el Cifrado cesar con el cual nuestro usuario estara mas seguro.
-
-Nustro interfaz estara constituida de un body dividido en un title, la parte del body donde se podra interactuar el producto y footer.
-Los eventos que va constar son lo siguiente:
-- Boton de Bienvenida al Interfaz.
-- Cuatro cajas de texto donde ingresaremos el texto a encriptar.
-- Una caja donde nos brinde la respuesta de lo ingresado.
-La logica de nuestro proyecto:
-  -
+ El objetivo principal del desarrollo de este proyecto es que los usuarios obtengan una cuenta y/o contraseñas segura y asi evitar cualquier inconveniente con el mismo,de la misma manera sentirse satisfechos y comodos al momento de  interactuar con la plataforma.
  
-El objetivo principal de aprendizaje de este proyecto es tener tu primera
-experiencia construyendo una aplicación web usando tus conocimientos de **User
-Experience Design** y de **JavaScript**. Esto incluye diseñar un producto
-pensando en los usuarios, construir una interfaz, escuchar eventos básicos del
-DOM, escribir lógica para llevar a cabo el cifado/descifrado, tests unitarios
-básicos para comprobar (y documentar) dicha lógica, y finalmente manipulación
-del DOM para mostrar (escribir) los resultados.
-
-Para completar el proyecto tendrás que familiarizarte con conceptos como
-[valores, tipos, variables](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/01-basics),
-[control de flujo](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/javascript/02-flow-control)
-y [tests unitarios](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/testing).
-
-Esperamos que en este proyecto puedas pensar en el usuario, entendiendo quién es
-y su necesidad. La idea es que logres entender qué necesita el usuario para el
-que crearás el producto y le ayudes a resolver esa necesidad de la mejor manera
-posible.
-
-Además, que puedas organizarte teniendo en cuenta el tiempo y los recursos
-disponibles. Es la primera vez que evaluaremos tus habilidades blandas, pero debes
-considerar que son habilidades que probablemente ya has utilizado en distintas
-experiencias de tu vida. Lo importante es que realices el proyecto de manera
-integral.
 
 ## Consideraciones generales
 

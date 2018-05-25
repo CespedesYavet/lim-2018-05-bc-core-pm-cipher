@@ -1,10 +1,13 @@
 h1{
   color:black;
-  text-align: center;
-  background-color:#424242;
+  text-align:center;
+  background-color:#03CC8C;
+  border:black 3px solid;
+  width:95%;
+  
 }
 header#titulo{
-    margin-top:0px;
+    margin-top:-30px;
     width: 100%;
     height: 80px;
     background-color: rgb(119, 165, 119);
@@ -19,6 +22,7 @@ div#inicio{
 }
 nav#contenido{
     position: relative;
+    background-image: url(https://78.media.tumblr.com/caa52add01c3234286dc688852ef33e5/tumblr_op0623jfYh1v22rhuo1_500.gif);
     float: right;
     margin-top:0px;
     width:30%;
@@ -27,6 +31,7 @@ nav#contenido{
   }
 article#todo{
     position: relative;
+    background-image: url(https://78.media.tumblr.com/caa52add01c3234286dc688852ef33e5/tumblr_op0623jfYh1v22rhuo1_500.gif);
   float: left;
   margin-top:0px;
   width:30%;

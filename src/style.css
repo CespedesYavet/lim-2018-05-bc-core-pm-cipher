@@ -1,20 +1,45 @@
-body{
-    border: 2px solid black;
-    margin-top: 60px;
-    margin-bottom: 50px;
-    margin-right: 50px;
-    margin-left: 40px;
-    background-color: rgb(38, 214, 200);
+h1{
+  color:black;
+  text-align: center;
+  background-color:#424242;
 }
-header h1{
+header#titulo{
+    margin-top:0px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(119, 165, 119);
+  }
+div#inicio{
+    position: absolute;
     text-align: center;
-    background-color: springgreen;
-    border: 1px solid black;
-    margin:0px 0px 20% 0px;
+    margin-top:0px;
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
 }
-main{
-    text-align: center;
+nav#contenido{
+    position: relative;
+    float: right;
+    margin-top:0px;
+    width:30%;
+    height:500px;
+    background-color:#424242;
+  }
+article#todo{
+    position: relative;
+  float: left;
+  margin-top:0px;
+  width:30%;
+  height:500px;
+  background-color:#424242;
 }
-#data{
-    text-align: right
+footer#pie{
+    float: none;
+    background-color: black;
+}
+h3{
+  text-align: center;
+  font-family: "Times New Roman";
+  padding : 20px;
+  font-size: 30px;
 }

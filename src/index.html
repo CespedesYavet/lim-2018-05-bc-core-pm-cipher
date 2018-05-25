@@ -6,24 +6,49 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-   <header>
-    <h1>Cifrado Cesar</h1>
-   </header>
-   <main>
-    Palabra a encriptar:
-    <br>
-    <input id="data"><br> 
-    Palabra a encriptar:<br> 
-    <input id="key" onkeyup="encrypt()"><br> 
-    <br>
-    Palabra Encriptada:<br> 
-    <input id="encrypted"><br> 
-    Palabra en (ASCII):
-    <br> 
-    <input id="encrypted_ASCII"><br> 
-    Palabra desencriptado:<br> 
-    <input id="decrypted"><br>
-  </main>
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <meta charset="utf-8">
+          <title></title>
+          <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+          <h1>My First Page</h1>
+
+          <header id = "titulo">
+              <h3>CIFRADO CESAR</h3> 
+          </header>
+
+          <div id = "inicio"> 
+              Palabra a encriptar:
+              <br>
+              <input id="data"><br> 
+              Corrida:<br> 
+              <input id="key" onkeyup="encrypt()"><br> 
+              <br>
+              Palabra Encriptada:<br> 
+              <input id="encrypted"><br> 
+              Palabra en (ASCII):
+              <br> 
+              <input id="encrypted_ASCII"><br> 
+              Palabra desencriptado:<br> 
+              <input id="decrypted"><br>  
+          </div>
+
+            <nav id = "contenido">   
+            </nav>
+
+            <article id = "todo">
+            </article>
+
+          <footer id="pie">
+                  <p>Posted by: Hege Refsnes</p>
+                  <p>Contact information: <a href="mailto:someone@example.com">
+                  someone@example.com</a>.</p>
+          </footer>
+        </body>
+      </html>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

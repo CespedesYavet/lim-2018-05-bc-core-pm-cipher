@@ -1,55 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-      <!DOCTYPE html>
-      <html>
-        <head>
-          <meta charset="utf-8">
-          <title></title>
-          <link rel="stylesheet" href="style.css">
-        </head>
-        <body>
-          <h1>My First Page</h1>
+<head>
+<meta charset="utf-8">
+<title>Caesar Cipher</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section>
+    <h1 class="text-center title">Cifrado César</h1>
+        <input type="text"  id="input" placeholder="Ingresa la palabra que desees"><!--par escribir palabra de fondo.-->
+        <input type="number"  id="desplazamiento" placeholder="ingresar el numero de dezplazamiento"><br><br>
+        <button id="cipher">Encriptar</button><!--Botones-->
+        <button id="clearbutton"> Limpiar</button>
+        <button id="decipher">Desencriptar</button>
+        <p id="result" class="result hide"></p> <!--resultado-->
+  </section>
 
-          <header id = "titulo">
-              <h3>CIFRADO CESAR</h3> 
-          </header>
-
-          <div id = "inicio"> 
-              Palabra a encriptar:
-              <br>
-              <input id="data"><br> 
-              Corrida:<br> 
-              <input id="key" onkeyup="encrypt()"><br> 
-              <br>
-              Palabra Encriptada:<br> 
-              <input id="encrypted"><br> 
-              Palabra en (ASCII):
-              <br> 
-              <input id="encrypted_ASCII"><br> 
-              Palabra desencriptado:<br> 
-              <input id="decrypted"><br>  
-          </div>
-
-            <nav id = "contenido">   
-            </nav>
-
-            <article id = "todo">
-            </article>
-
-          <footer id="pie">
-                  <p>Posted by: Hege Refsnes</p>
-                  <p>Contact information: <a href="mailto:someone@example.com">
-                  someone@example.com</a>.</p>
-          </footer>
-        </body>
-      </html>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+<script src="cipher.js"></script>
+<script src="index.js"></script>
+</body>
 </html>

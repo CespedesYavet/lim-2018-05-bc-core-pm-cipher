@@ -1,50 +1,21 @@
-h1{
-  color:black;
-  text-align:center;
-  background-color:#03CC8C;
-  border:black 3px solid;
-  width:100%;
-
+body{
+  background: url("https://image.freepik.com/vector-gratis/ladron-de-hackers-sentarse-con-la-computadora-para-hackear-en-el-fondo-oscuro_37225-26.jpg");
 }
-header#titulo{
-    margin-top:-30px;
-    width: 100%;
-    height: 80px;
-    background-color: rgb(119, 165, 119);
-  }
-div#inicio{
-    position: absolute;
-    text-align: center;
-    margin-top:0px;
-    width: 100%;
-    height: 500px;
-    background-color: yellow;
-}
-nav#contenido{
-    position: relative;
-    background-image: url(https://78.media.tumblr.com/caa52add01c3234286dc688852ef33e5/tumblr_op0623jfYh1v22rhuo1_500.gif);
-    float: right;
-    margin-top:0px;
-    width:30%;
-    height:500px;
-    background-color:#424242;
-  }
-article#todo{
-    position: relative;
-    background-image: url(https://78.media.tumblr.com/caa52add01c3234286dc688852ef33e5/tumblr_op0623jfYh1v22rhuo1_500.gif);
-  float: left;
-  margin-top:0px;
-  width:30%;
-  height:500px;
-  background-color:#424242;
-}
-footer#pie{
-    float: none;
-    background-color: black;
-}
-h3{
+.title{
   text-align: center;
-  font-family: "Times New Roman";
-  padding : 20px;
+  font-size: 60px;
+}
+section{
+  text-align: center;
+}
+input{
+  width: 200px;
+  height: 60px;
+}
+button{
+  width: 90px;
+  height: 40px;
+}
+#result{
   font-size: 30px;
 }

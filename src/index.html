@@ -5,50 +5,17 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-      <!DOCTYPE html>
-      <html>
-        <head>
-          <meta charset="utf-8">
-          <title></title>
-          <link rel="stylesheet" href="style.css">
-        </head>
-        <body>
-          <h1>My First Page</h1>
-
-          <header id = "titulo">
-              <h3>CIFRADO CESAR</h3> 
-          </header>
-
-          <div id = "inicio"> 
-              Palabra a encriptar:
-              <br>
-              <input id="data"><br> 
-              Corrida:<br> 
-              <input id="key" onkeyup="encrypt()"><br> 
-              <br>
-              Palabra Encriptada:<br> 
-              <input id="encrypted"><br> 
-              Palabra en (ASCII):
-              <br> 
-              <input id="encrypted_ASCII"><br> 
-              Palabra desencriptado:<br> 
-              <input id="decrypted"><br>  
-          </div>
-
-            <nav id = "contenido">   
-            </nav>
-
-            <article id = "todo">
-            </article>
-
-          <footer id="pie">
-                  <p>Posted by: Hege Refsnes</p>
-                  <p>Contact information: <a href="mailto:someone@example.com">
-                  someone@example.com</a>.</p>
-          </footer>
-        </body>
-      </html>
+    <body>
+      <section>
+        <h1 class="title">Cifrado César</h1> <!--entrada-->
+          <input type="text" id="input" placeholder="Ingresa la palabra que desees"><!--para escribir palabra de fondo.-->
+          <input type="text" id="desplazamiento" placeholder="Ingresa la palabra a desencriptar"> <br><br>
+          <button id="cipher">Encriptar</button> <!--Botones-->
+          <button id="decipher">Desencriptar</button><br><br>
+          <button id="clearbutton">Limpiar</button><br><br>
+          <!--<input type="text" id="resultado" placeholder="Esto es resultado de la palabra que encriptaste"> <br><br>-->
+          <p id="result" class="result hide"></p><!--resultado    class="result hide"-->
+        </section>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

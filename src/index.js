@@ -13,11 +13,12 @@
     let inputnumber = desplazamiento.value;
     console.log(inputWord);
     console.log(inputnumber);
-    result.innerHTML = cipher.encode(inputnumber,inputWord) ;
+    result.innerHTML = 'El texto desencriptado es <br/>: ' + cipher.encode(inputnumber,inputWord) ;
   });
 
   decode.addEventListener('click', () => {
     let inputWord = input.value; // variable para la salida de la palabra encriptada
+    let inputnumber = desplazamiento.value;
 
-    result.innerHTML = 'El texto desencriptado es <br/>: ' + output;  /* resultado*/  
+    result.innerHTML = 'El texto desencriptado es <br/>: ' +  cipher.decode(inputnumber,inputWord);  /* resultado*/  
   });

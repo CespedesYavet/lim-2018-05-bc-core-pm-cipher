@@ -21,3 +21,10 @@ button{
 #result{
   font-size: 30px;
 }
+p{
+  font-size: 30px;
+}
+footer p{
+  font-size: 20px;
+  text-align: center;
+}

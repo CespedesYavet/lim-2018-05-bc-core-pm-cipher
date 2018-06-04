@@ -11,10 +11,12 @@ section{
 input{
   width: 200px;
   height: 60px;
+  border: 10px groove ;
 }
 button{
-  width: 90px;
-  height: 40px;
+  width: 100px;
+  height: 45px;
+  border:  5px groove;
 }
 #result{
   font-size: 30px;

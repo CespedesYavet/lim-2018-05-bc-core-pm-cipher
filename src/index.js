@@ -4,7 +4,7 @@
     let encode = document.getElementById('cipher');//boton encriptar
     let decode = document.getElementById('decipher');//boton desencriptar
     let result = document.getElementById('result'); //limpiar
-    //let salida = document.getElementById('salida');
+    let salida = document.getElementById('clearbutton').value="";
 
   encode.addEventListener('click', () => {
     console.log('entre al click');

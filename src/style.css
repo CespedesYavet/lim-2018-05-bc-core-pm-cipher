@@ -1,8 +1,4 @@
 body{
-<<<<<<< HEAD
-  background : url("https://image.freepik.com/vector-gratis/ladron-de-hackers-sentarse-con-la-computadora-para-hackear-en-el-fondo-oscuro_37225-26.jpg ");
-}
-=======
   background: url("https://image.freepik.com/vector-gratis/ladron-de-hackers-sentarse-con-la-computadora-para-hackear-en-el-fondo-oscuro_37225-26.jpg");
 }
 .title{
@@ -32,4 +28,3 @@ footer p{
   font-size: 20px;
   text-align: center;
 }
->>>>>>> master

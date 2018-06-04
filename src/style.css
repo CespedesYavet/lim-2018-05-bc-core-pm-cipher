@@ -1,5 +1,5 @@
 body{
-  background: url("https://image.freepik.com/vector-gratis/ladron-de-hackers-sentarse-con-la-computadora-para-hackear-en-el-fondo-oscuro_37225-26.jpg");
+  background: url("https://png.pngtree.com/element_origin_min_pic/16/11/08/195821b84ac0cca.jpg");
 }
 .title{
   text-align: center;
@@ -27,4 +27,7 @@ p{
 footer p{
   font-size: 20px;
   text-align: center;
+  background: #696969;
+  height: 40px;
+  padding:5px 0px;
 }

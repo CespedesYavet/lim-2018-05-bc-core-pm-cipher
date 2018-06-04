@@ -25,7 +25,8 @@ El cifrado Cesar es uno de los primeros métodos de cifrado conocidos histórica
 ##Principales usuarios del producto:
 Esta dirijido a todo usuario que desee hacer uso de este producto para poder ayudar a mantener seguro su cuenta. 
 El objetivo de este usuario en relacion con el proyecto es conocer y darle uso de la mejor manera y cubra la necesidad por la cual adquirio este producto.
-Este producto le soluciona el problema basicamente de seguridad 
+Este producto le soluciona el problema basicamente de seguridad.
+
 
 El producto creado a sido probado y deja de manera funcional para ser utilizado por el cliente.
 

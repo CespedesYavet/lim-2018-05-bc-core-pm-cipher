@@ -1,3 +1,35 @@
 body{
+<<<<<<< HEAD
   background : url("https://image.freepik.com/vector-gratis/ladron-de-hackers-sentarse-con-la-computadora-para-hackear-en-el-fondo-oscuro_37225-26.jpg ");
 }
+=======
+  background: url("https://image.freepik.com/vector-gratis/ladron-de-hackers-sentarse-con-la-computadora-para-hackear-en-el-fondo-oscuro_37225-26.jpg");
+}
+.title{
+  text-align: center;
+  font-size: 60px;
+}
+section{
+  text-align: center;
+}
+input{
+  width: 200px;
+  height: 60px;
+  border: 10px groove ;
+}
+button{
+  width: 100px;
+  height: 45px;
+  border:  5px groove;
+}
+#result{
+  font-size: 30px;
+}
+p{
+  font-size: 30px;
+}
+footer p{
+  font-size: 20px;
+  text-align: center;
+}
+>>>>>>> master

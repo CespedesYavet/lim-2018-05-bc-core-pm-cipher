@@ -7,7 +7,7 @@ window.cipher={
                 let code = string.charCodeAt(i); // variable en donde se convierte la letra en codigo ascii
                 let code2 = string[i]; // variable que guarda la conversion de codigo ascii a letra
                 if ((code >= 65) && (code <= 90)) { // revisa letras mayusculas A= 65 - Z= 90
-                    code2 = String.fromCharCode(((code - 65 + parseInt(offset) % 26) + 65)); //ejcutar espacios y cnvtirndo ascii a letra
+                    code2 = String.fromCharCode(((code - 65 + parseInt(offset)) % 26) + 65); //ejcutar espacios y cnvtirndo ascii a letra
                 }
                 else if ((code >= 97) && (code <= 122)) {//Analizar letras minus a= 97 y z=122 y ejecutar 33 espacios
                     code2 = String.fromCharCode(((code - 97 + parseInt(offset)) % 26) + 97); //ejcutar los 33espacios y cnvtirndo ascii a letra
